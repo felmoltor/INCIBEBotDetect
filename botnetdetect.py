@@ -27,7 +27,7 @@ def sendAlert(msg):
 def callINCIBE():
     buffer = BytesIO()
     c = pycurl.Curl()
-    c.setopt(c.URL,"https://antibotnet.osi.es/api/wscheckip/es")
+    c.setopt(c.URL,"https://antibotnet.osi.es/api/wscheckip/en")
     c.setopt(c.HTTPHEADER,["X_INTECO_WS_Request_Source: api",])
     c.setopt(c.WRITEDATA,buffer)
     c.perform()
