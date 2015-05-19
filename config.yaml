@@ -1,0 +1,8 @@
+server: smtp.gmail.com
+port: 587
+subject: Botnet Alarm!
+source: user@domain.com
+destination: user@email.com
+username: user@gmail.com
+password: 123456
+
